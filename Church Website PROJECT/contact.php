@@ -17,26 +17,27 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="announce.html">Announcements</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="announce.php">Announcements</a></li>
             <li><a href="about.php">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="adminlogin.html" class="btn btn-primary">Admin Login</a></li>
-            <li><a href="userlogin.html" class="btn btn-success">User Login</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="adminlogin.php" class="btn btn-primary">Admin Login</a></li>
+            <li><a href="userlogin.php" class="btn btn-success">User Login</a></li>
             <hr>
         </ul>
     </nav>
 </header>
 <body background="/images/pexels.JPG" id="bodyback">
-    <div class="contaf">
+    <div class="form-group">
         <div>
         <h1>FEEL FREE TO CONTACT US!</h1>
         <h1>Send us a Message at:</h1>
         </div>
         <div>
-        <form class="contactform">
-            <label class="label_text" for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
+        <form id="contactform">
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name">
+            <br>
             <label for="Number">Number:</label><br>
             <input type="number" id="Number" name="number"><br>
             <label for="Email">Email:</label><br>
@@ -47,4 +48,5 @@
         </form>
         </div>
     </div>
+</center>
 </body>

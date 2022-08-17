@@ -73,7 +73,7 @@ textarea {
     margin: 0 5px;
 }
 
-.contactform {
+#contactform{
     margin: 0 5px;
 }
 
@@ -84,15 +84,21 @@ textarea {
 
 #bodyback {
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 100%;
 }
 
 .contaf h1 {
     background-color: white;
-    color: black;
     background: local;
 }
 
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 5px;
+}
 
-
+h5{
+    background-color: red;
+    color: white;
+}
