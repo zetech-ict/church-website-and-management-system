@@ -77,9 +77,9 @@
         <br>
 
 
-        <div class="clearfix">
-        <button type="cancel" class="cancelbtn">Cancel</button>
+        <div>
         <button type="submit" class="signupbtn">Sign Up</button>
+        <button type="reset" class="cancelbtn">Cancel</button>
         </div>
     </div>
     </form>

@@ -26,8 +26,16 @@
 </header>
 <body>
     <center>
-    <form class="login">
+    <form class="login" action="admin_check.php" method="POST">
         <h1> Admin Login Form </h1> 
+        <h5>
+            <?php
+                error_reporting(0);
+                session_start();
+                session_destroy();
+                echo $_SESSION['loginMessage'];
+            ?>
+        </h5>
         <div class="form">  
             <div> 
             <label>Username : </label>   
@@ -39,7 +47,7 @@
             </div>
             <div>
             <button type="submit">Login</button>     
-            <button type="button" class="cancelbtn"> Cancel</button>   
+            <button type="reset" class="cancelbtn"> Cancel</button>   
             </div>  
         </div>   
     </form>     

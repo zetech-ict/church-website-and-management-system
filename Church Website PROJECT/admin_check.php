@@ -15,26 +15,26 @@ if($conn->connect_error){
 
 if($_SERVER["REQUEST_METHOD"] == 'POST') 
     {
-        $name = $_POST['email'];
+        $name = $_POST['username'];
         $password = $_POST['password'];
         
-        $sql="SELECT * FROM `user_register` where email= '".$name."' AND 
+        $sql="SELECT * FROM `admins` where username= '".$name."' AND 
         password= '".$password."'  ";
 
         $result= mysqli_query($conn, $sql);
 
         $row = mysqli_fetch_array($result);
 
-        if($row["email"])
+        if($row['username'])
         {
-            $_SESSION['email']=$name;
-            header("location:userportal.php");
-            
+            $_SESSION['username']=$name;
+            header("location:adminportal.php");
+            echo "LOGIN SUCCESS";
         }else{
             session_start();
             $message= "USERNAME OR PASSWORD IS INCORRECT";
             $_SESSION['loginMessage']= $message;
-            header("location:userlogin.php");
+            header("location:adminlogin.php");
         }
 
     }

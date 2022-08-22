@@ -1,0 +1,76 @@
+
+
+.header
+{
+
+    background-color: rgb(182, 217, 219);
+	line-height: 70px;
+	padding-left: 30px;	
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+.logout
+{
+	float: right;
+	padding-right: 30px;
+}
+
+aside ul
+{
+	background-color: #1f4cac;
+	width: 16%;
+	height: 100%;
+	position: fixed;
+	padding-top: 5%;
+	text-align: inherit;
+    padding-left: 10px;
+}
+
+ul li 
+{
+	list-style: none;
+	padding-bottom: 30px;
+	font-size: 15px;
+
+}
+
+a,a:hover 
+{
+	text-decoration: none!important;
+}
+
+ul li a 
+{
+	color: white;
+	font-weight: bold;
+}
+
+ul li a:hover
+{
+	color: skyblue;
+	text-decoration: none!important;
+}
+
+.content
+{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+#adm{
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+nav ul li {
+    color: black;
+    display: inline-block;
+    top: 0;
+    border-spacing: 10px;
+    line-height: 60px;
+    margin: 0 5px;
+}
