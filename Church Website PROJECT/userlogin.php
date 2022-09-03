@@ -11,6 +11,8 @@
 
 <title>User Login</title>
 </head>
+
+<body background="images/op_bible.jpg" id="contactback">
 <header>
     <nav>
         <ul>
@@ -24,7 +26,7 @@
         </ul>
     </nav>
 </header>
-<body>
+
     <center>
     <form class="login" action="login_check.php" method="POST">
         <h1> User Login Form </h1> 

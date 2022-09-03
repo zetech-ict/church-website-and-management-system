@@ -35,6 +35,14 @@
         <h1>Sign Up</h1>
         <p>Please fill in this form to create an account.</p>
         <hr>
+            <h5 class="signmsg">
+                <?php
+                    error_reporting(0);
+                    session_start();
+                    session_destroy();
+                    echo $_SESSION['signMessage'];
+                ?>
+            </h5>
         <div>
         <label for="fname"><b>First Name: </b></label>
         <input type="text" placeholder="Your First Name"  name="fname" required >
@@ -70,11 +78,11 @@
         <input type="password" placeholder="Enter Password" name="psw" required>
         </div>
         <br>
-        <div>
+        <!--<div>
         <label for="psw-repeat"><b>Repeat Password: </b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" >
         </div>
-        <br>
+        <br>-->
 
 
         <div>

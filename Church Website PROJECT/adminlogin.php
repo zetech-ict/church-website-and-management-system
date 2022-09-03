@@ -24,7 +24,7 @@
         </ul>
     </nav>
 </header>
-<body>
+<body background="images/cross.jpg" id="contactback">
     <center>
     <form class="login" action="admin_check.php" method="POST">
         <h1> Admin Login Form </h1> 

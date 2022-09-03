@@ -30,32 +30,73 @@
 <body>
     <div class="section_1">
         <h1 class="img-text">WELCOME TO OUR CHURCH!</h1>
-        <img class="main_img" src="/images/pexels.JPG">
+        <img class="main_img" src="images/pexels.JPG">
     </div>
 
     <section class="announce">
-        <br>
-        <br>
-        <br>
-        <h2>ANNOUNCEMENTS</h2>
+        <h2>WELCOME</h2>
         <br>
         <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet 
             voluptatum velit quis odio natus sapiente 
-            ad reiciendis</p1>
+            ad reiciendis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit facilis, c
+            umque nobis voluptatem velit excepturi aut cum debitis vero aliquid error tenetur voluptatum 
+            incidunt ratione eligendi. Id explicabo cupiditate dolorem!</p1>
+
+        <hr>
     </section>
-        <br>
-        <br>
-        <br> 
-        <br>
-        <br>
-        <br>
-    <section>
-        <a href="signup.php" class="btn btn-success">Open your Account here</a>
-        <br>
-    <br>
-    <br>
-    <br>
-    </section>
+
+    <style>
+
+        .container div{
+        margin-top: 45px;
+        margin-bottom: 50px;
+        }
+
+        .announce h2{
+            margin-left: auto;
+            text-align: center;
+        }
+        .announce {
+            margin-top: 50px;
+            margin-bottom: 10px;
+            margin-left: 45px;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row" id="row1">
+            <div class="col-md-4">
+                <img class="welcome_img" src="images/praise.jpg">
+            </div>
+
+            <div class="col-md-8">
+                <h1>We're a Community</h1>
+                <p>
+                    We love God and would like to share our love of God with everyone else
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nulla 
+                    nesciunt laboriosam explicabo perferendis repellat 
+                    repudiandae, illum totam perspiciatis amet asperiores nam, 
+                    expedita ad modi. Atque, repellendus. </p>
+
+            </div>
+
+        </div>
+        <div class="row" id="row2">
+            <div class="col-md-8">
+                <h1>Join Us</h1>
+                <p>
+                    Become a proud member of our church today, Join our cause by opening your account here
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nu
+                    <br>
+                    <a href="signup.php" class="btn btn-success">Open your Account here</a> 
+                </p>
+            </div>
+            <div class="col-md-4">
+               <img class="join" src="">
+            </div>
+    
+        </div>
+    </div>
     
 </body>
 </html>

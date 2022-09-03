@@ -1,9 +1,18 @@
 
-
 .header
 {
 
-    background-color: rgb(182, 217, 219);
+    background-color: rgb(126, 205, 236);
+	line-height: 70px;
+	padding-left: 30px;	
+    padding: 20px;
+    margin: 0;
+}
+
+.uheader
+{
+
+    background-color: rgb(121, 218, 129);
 	line-height: 70px;
 	padding-left: 30px;	
     padding: 20px;
@@ -21,6 +30,17 @@
 aside ul
 {
 	background-color: #1f4cac;
+	width: 16%;
+	height: 100%;
+	position: fixed;
+	padding-top: 5%;
+	text-align: inherit;
+    padding-left: 10px;
+}
+
+.upanel ul
+{
+	background-color: #226425;
 	width: 16%;
 	height: 100%;
 	position: fixed;
@@ -54,6 +74,13 @@ ul li a:hover
 	text-decoration: none!important;
 }
 
+.upanel ul li a:hover
+{
+	color: rgb(116, 221, 121);
+	text-decoration: none!important;
+}
+
+
 .content
 {
 	margin-left: 20%;
@@ -66,6 +93,12 @@ ul li a:hover
 	color: black;
 }
 
+#usr{
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
 nav ul li {
     color: black;
     display: inline-block;
@@ -73,4 +106,19 @@ nav ul li {
     border-spacing: 10px;
     line-height: 60px;
     margin: 0 5px;
+}
+
+table, tr, th {
+	border: 1px solid black;
+}
+
+.announcement1{
+	color: blue;
+	width: 30cm;
+	height: 10cm;
+}
+
+.signmsg{
+    background-color: rgb(22, 139, 22);
+    color: white;
 }

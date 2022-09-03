@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 a:hover {
     color: red;
 }
@@ -45,6 +50,7 @@ textarea {
     text-align: center;
 }
 
+
 .main_img {
     width: 100%;
     height: 400px;
@@ -75,6 +81,8 @@ textarea {
 
 #contactform{
     margin: 0 5px;
+    color: white;
+    position: inherit;
 }
 
 .login h1 {
@@ -82,9 +90,15 @@ textarea {
     padding-bottom: 30px;
 }
 
-#bodyback {
+#contactback {
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding-bottom: 95px;
+}
+
+.form-group {
+    background-color: white;
+    width: fit-content;
 }
 
 .contaf h1 {
@@ -98,8 +112,18 @@ textarea {
     margin: 0 5px;
 }
 
+.welcome_img{
+    width: 100%;
+    height: 250px;
+}
+
 h5{
     background-color: red;
+    color: white;
+}
+
+.signmsg{
+    background-color: rgb(22, 139, 22);
     color: white;
 }
 

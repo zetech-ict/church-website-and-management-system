@@ -27,26 +27,44 @@
         </ul>
     </nav>
 </header>
-<body background="/images/pexels.JPG" id="bodyback">
+<body background="images/phone.JPG" id="contactback">
     <div class="form-group">
-        <div>
         <h1>FEEL FREE TO CONTACT US!</h1>
         <h1>Send us a Message at:</h1>
-        </div>
+    </div>
+            <h5 class="signmsg">
+                <?php
+                    error_reporting(0);
+                    session_start();
+                    session_destroy();
+                    echo $_SESSION['sentMessage'];
+                ?>
+            </h5>
+        
         <div>
-        <form id="contactform">
-            <label for="name">Name: </label><br>
-            <input type="text" id="name" name="name">
+        <form action="msgconnect.php" method="POST" id="contactform">
+            <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+            </div>
             <br>
-            <label for="Number">Number:</label><br>
-            <input type="number" id="Number" name="number"><br>
-            <label for="Email">Email:</label><br>
+            <div>
+            <label for="Number">Number:</label>
+            <input type="number" id="Number" name="number" required><br>
+            </div>
+            <br>
+            <div>
+            <label for="Email">Email:</label>
             <input type="email" id="email" name="email"><br>
+            </div>
+            <br>
+            <div>
             <label for="Message">Your Message:</label><br>
-            <textarea class="message" placeholder="Your message here"></textarea><br>
+            <textarea class="message" placeholder="Your message here" name="msg" required></textarea>
+            </div>
+            <br>
             <input type="submit" value="SUBMIT QUESTION"><br>
         </form>
         </div>
-    </div>
-</center>
+
 </body>

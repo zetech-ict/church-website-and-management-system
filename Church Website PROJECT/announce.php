@@ -1,3 +1,13 @@
+<?php
+
+    $data = mysqli_connect("localhost","root","","church_system");
+
+    $sql = "SELECT * FROM announcements";
+
+    $result = mysqli_query($data, $sql);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +22,15 @@
     <!-- Javascript popper-->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style> 
+        .notices{margin-left: 20px; font-size: larger; }
+        body p1 ol li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+
     <title>Announcements</title>
 </head>
 <header>
@@ -30,5 +49,20 @@
 <body>
     <h1 id="announce">CURRENT ANNOUNCEMENTS AND EVENTS</h1>
     <hr>
+    <div class="notices">
+    <p1>
+        <?php 
+            while($aquire=$result->fetch_assoc())
+            {
+        ?>
+        <p5>Date: <?php echo "{$aquire['date']}"; ?> </p5>
+        <?php } ?>
+        <ol>
+            <li>Announcement</li>
+        </ol>
+
+        
+    </p1>
+    </div>
 </body>
 </html>

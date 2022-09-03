@@ -16,7 +16,10 @@
         values(?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("sssiss", $firstName, $lastName, $email, $number, $gender, $password);
         $stmt->execute();
-        echo "Your account has been succesfully created";
+            session_start();
+                $message= "ACCOUNT CREATED SUCCESFULLY";
+                $_SESSION['signMessage']= $message;
+                header("location:signup.php");
         $stmt->close();
         $conn->close();
     }
