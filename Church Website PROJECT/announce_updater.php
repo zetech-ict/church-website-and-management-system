@@ -22,11 +22,16 @@
 <style>
     .box{
         width: 20cm;
-        height: 5cm;
+        height: 2cm;
         padding-top: 3px;
-        margin-bottom: 5px;
-        border: 3px solid black;
+        margin-bottom: 25px;
+        border: 2px solid black;
     }
+
+    form{
+        margin-bottom: 50px;
+    }
+
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -49,15 +54,28 @@
      <h5 class="signmsg">
                 <?php
                     error_reporting(0);
-                    session_start();
-                    session_destroy();
                     echo $_SESSION['postMessage'];
                 ?>
             </h5>
 
     <form action="announce_connect.php" method="POST">
-        <label for="announcement1">Announcements:</label><br>
+        <label for="announcement1">Announcement 1:</label><br>
         <textarea class="box" type="text" id="announcement1" name="announcement1"></textarea>
         <br>
-        <input type="submit" value="Update Website">
+        <label for="announce2">Announcement 2:</label><br>
+        <textarea class="box" type="text" id="announce2" name="announce2"></textarea>
+        <br>
+        <label for="announce3">Announcement 3:</label><br>
+        <textarea class="box" type="text" id="announce3" name="announce3"></textarea>
+        <br>
+        <label for="announce4">Announcement 4:</label><br>
+        <textarea class="box" type="text" id="announce4" name="announce4"></textarea>
+        <br>
+        <label for="announce5">Announcement 5:</label><br>
+        <textarea class="box" type="text" id="announce5" name="announce5"></textarea>
+        <br>
+        <label for="announce6">Announcement 6:</label><br>
+        <textarea class="box" type="text" id="announce6" name="announce6"></textarea>
+        <br>
+        <input type="submit" class="btn btn-success" value="Update Website">
     </form>

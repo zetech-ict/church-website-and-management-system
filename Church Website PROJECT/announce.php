@@ -56,11 +56,16 @@
             {
         ?>
         <p5>Date: <?php echo "{$aquire['date']}"; ?> </p5>
-        <?php } ?>
+        
         <ol>
-            <li>Announcement</li>
+            <li> <?php echo "{$aquire['announcement']}"; ?> </li>
+            <li> <?php echo "{$aquire['announce_2']}"; ?> </li>
+            <li> <?php echo "{$aquire['announce_3']}"; ?> </li>
+            <li> <?php echo "{$aquire['announce_4']}"; ?> </li>
+            <li> <?php echo "{$aquire['announce_5']}"; ?> </li>
+            <li> <?php echo "{$aquire['announce_6']}"; ?> </li>
         </ol>
-
+        <?php } ?>
         
     </p1>
     </div>
