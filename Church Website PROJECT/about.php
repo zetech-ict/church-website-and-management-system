@@ -8,7 +8,7 @@
     <!-- Latest compiled and minified CSS -->
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
+<style>body p{margin-right: 25px; margin-left: 30px;}</style>
 <title>About</title>
 </head>
 <header>
@@ -25,7 +25,7 @@
     </nav>
 </header>
 <body>
-    <h1>ABOUT OUR CHURCH</h1>
+    <h1 style="text-align: center;">ABOUT OUR CHURCH</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quisquam dolorem sint 
         consequatur! Voluptatem temporibus doloremque asperiores eos aliquam nemo eum enim? 
         Facilis, exercitationem pariatur odio quis asperiores consequuntur labore?<br>
@@ -37,3 +37,4 @@
         libero rerum quam, pariatur sequi illum consectetur molestias, molestiae quos.
     </p>
 </body>
+</html>

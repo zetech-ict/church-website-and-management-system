@@ -55,17 +55,19 @@
         </style>
 
         <div class="message_reader">
+
         <style> p1{margin-right: 200px ;} 
-                p2{margin-bottom: 10px; border-bottom: 30px;
-                   border-width: 22cm; 
-                
-                }</style>
+                p2{margin-bottom: 35px; border-bottom: 30px; 
+                   border-width: 22cm; }
+                .del{float: right; margin-right: 20px; margin-bottom: 25px;}
+        </style>
+
                 <?php 
                  while($aquire=$result->fetch_assoc())
                     {
                 ?>
             <br>
-            <hr style="border-top: 10px solid black; margin-left: 0px; ">
+            <hr style="border-top: 10px solid black; margin-left: 0px;">
             <h8><b>Message ID: <?php echo "{$aquire['ID']}"; ?> </b></h8>
             <hr>
             <h4>Name: <?php echo "{$aquire['name']}"; ?> </h4>
@@ -79,6 +81,11 @@
             </div>
             <hr>
             <p2>Date: <?php echo "{$aquire['date']}"?></p2>
+
+            <p1 class="del"> 
+                <?php echo "<a onClick=\" javascript:return confirm('Are you sure you want to permanently delete this message?') \"
+                href='msg_del.php?msg_id={$aquire['ID']}'> DELETE MESSAGE </a>"?> 
+            </p1>
 
                 <?php } ?>
         </div>

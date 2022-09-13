@@ -35,13 +35,29 @@
 		
 		<h1>Admin Home</h1>
 
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, dicta suscipit earum nostrum 
-            ratione, et rerum placeat iure, consectetur esse sunt quam soluta dolore animi odit quasi 
-            fugiat eligendi iste?</p>
+		<p>Hello, welcome to the admin portal, this is where most of the administrative 
+            work of this system is done.</p>
+        <p2>While logged in, you will be able to do the following:</p2>
+        <ol>
+            <li>View Messages sent from the Website.</li>
+            <li>View the current existing members.</li>
+            <li>Update Church announcements that will be posted up on the website.</li>
+            <li>Create Events.</li>
+            <li>Delete Events when required.</li>
+        </ol>
 
-
+        <p3>Click on the appropriate menu on the sidebar to your left to perform any of the tasks listed above.</p3>
+        <br>
+        <p3>There's a short description in each page giving you an idea on how to use it, that is to say that 
+            this system will be a relatively simple and straightforward user experience.
+        </p3>
+        <br>
+        <br>
+        <p3><b>ENJOY.</b></p3>
+   
 
 	</div>
 
 
 </body>
+</html>

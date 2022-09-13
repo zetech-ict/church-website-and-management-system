@@ -6,7 +6,7 @@
 
     $data = mysqli_connect("localhost","root","","church_system");
 
-    $sql = "SELECT * FROM user_register";
+    $sql = "SELECT * FROM events";
 
     $result = mysqli_query($data, $sql);
 
@@ -32,19 +32,17 @@
 <?php
     include "adminheader.php";
 ?>
-    <div class="content">
 
-        <div class="adminsection_1">
-            <h1 class="img-text">MEMBER LIST</h1>
-        </div>
-		
-		<h1></h1>
+<div class="content">
 
-        <p>The following section contains a list of all church members who 
-            are registered to this platform.
-        </p>
+    <div class="adminsection_1">
+        <h1 class="img-text">EVENT EDITOR.</h1>
+    </div>
 
-        <style>
+    <p>This section is for the viewing of current events and deletion of past or cancelled ones.
+    </p>
+
+    <style>
             table {
                 margin-top: 50px;
                 margin-left: auto;
@@ -67,35 +65,35 @@
             }
         </style>
 
-        <table>
-            <tr>
-                <th colspan="7">USER MEMBER LIST</th>
-            </tr>
-            <tr>
-                <th>ID</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Email</th>
-                <th>Number</th>
-                <th>Gender</th>
-                <th>Delete Member</th>
-            </tr>
-            
-            <?php 
+    <table>
+        <tr>
+            <th colspan="7">CURRENT EVENTS.</th>
+        </tr>
+        <tr>
+            <th>Event ID</th>
+            <th>Event Name</th>
+            <th>Time</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Description</th>
+            <th>Delete Event</th>
+        </tr>
+
+        <?php 
                 while($aquire=$result->fetch_assoc())
                 {
             ?>
-
-            <tr>
+        
+        <tr>
                 <td>  <?php echo "{$aquire['ID']}"; ?></td>
-                <td>  <?php echo "{$aquire['firstName']}"; ?></td>
-                <td>  <?php echo "{$aquire['lastName']}"; ?></td>
-                <td>  <?php echo "{$aquire['email']}"; ?></td>
-                <td>  <?php echo "{$aquire['number']}"; ?></td>
-                <td>  <?php echo "{$aquire['gender']}"; ?></td>
+                <td>  <?php echo "{$aquire['eventname']}"; ?></td>
+                <td>  <?php echo "{$aquire['time']}"; ?></td>
+                <td>  <?php echo "{$aquire['date']}"; ?></td>
+                <td>  <?php echo "{$aquire['location']}"; ?></td>
+                <td>  <?php echo "{$aquire['description']}"; ?></td>
                 <td>  
-                    <?php echo"<a class='btn btn-danger' onClick=\" javascript:return confirm('Are you sure you want to delete this member?') \"
-                    href='member_del.php?mem_id={$aquire['ID']}'> Delete </a>"; ?>
+                    <?php echo"<a class='btn btn-danger' onClick=\" javascript:return confirm('Are you sure you want to permanently delete this event?') \"
+                    href='event_del.php?event_id={$aquire['ID']}'> Delete </a>"; ?>
                 </td>
             </tr>
             
@@ -103,7 +101,3 @@
 
         </table>
     </div>  
-
-</body>
-
-</html>

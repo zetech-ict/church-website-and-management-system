@@ -32,6 +32,10 @@
         margin-bottom: 50px;
     }
 
+    form button{
+        float: right;
+        margin-right: 8.5cm;
+    }
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -50,6 +54,9 @@
 
     <p>In this section, you can update church announcements which will be posted 
      on the website.</p>
+    <p3>NB: For the purpose of a tidy announcement page at the website, you'll have to 
+    update only 6 announcements at a time. Announcement 1 is mandatory.
+    </p3>
 
      <h5 class="signmsg">
                 <?php
@@ -60,7 +67,7 @@
 
     <form action="announce_connect.php" method="POST">
         <label for="announcement1">Announcement 1:</label><br>
-        <textarea class="box" type="text" id="announcement1" name="announcement1"></textarea>
+        <textarea class="box" type="text" id="announcement1" name="announcement1" required></textarea>
         <br>
         <label for="announce2">Announcement 2:</label><br>
         <textarea class="box" type="text" id="announce2" name="announce2"></textarea>
@@ -78,4 +85,7 @@
         <textarea class="box" type="text" id="announce6" name="announce6"></textarea>
         <br>
         <input type="submit" class="btn btn-success" value="Update Website">
+        <button type="reset" class="btn btn-danger">Clear Fields</button>
     </form>
+
+</html>

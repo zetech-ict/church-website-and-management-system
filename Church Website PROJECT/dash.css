@@ -45,6 +45,7 @@ aside ul
 	height: 100%;
 	position: fixed;
 	padding-top: 5%;
+	padding-right: 10px;
 	text-align: inherit;
     padding-left: 10px;
 }
@@ -114,8 +115,8 @@ table, tr, th {
 
 .announcement1{
 	color: blue;
-	width: 30cm;
-	height: 10cm;
+	width: 20cm;
+	height: 4cm;
 }
 
 .signmsg{

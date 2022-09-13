@@ -27,24 +27,19 @@
 		
 		<a id="usr">User Portal</a>
 		<div class="logout">	
+        <a style="margin-right: 30px;"><?php echo ($_SESSION['email']) ?> </a>
         <a href="logout.php" class="btn btn-danger">Logout</a>
 		</div>
 
 </header>
 <body>
-    <aside  class="upanel">
-        <ul>
-            <li><a href="userportal.php">DASHBOARD HOME</a>
-            <li><a href="">Apply for Event</a></li>
-            <li><a href="">Record Contribution</a></li>
-            <li><a href="">View Church Announcements</a></li>
-        </ul>
-    </aside>
+   
+    <?php include "userheader.php"; ?>
 
     <div class="content">
 
         <div class="adminsection_1">
-            <h1 class="img-text">WELCOME, $_username</h1>
+            <h1 class="img-text">WELCOME</h1>
         </div>
 		
 		<h1>User Dashboard</h1>
