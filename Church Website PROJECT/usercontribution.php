@@ -84,7 +84,7 @@
         <input type="date" placeholder="Date of contribution" name="date" required ><br>
         <label for="comment">Comment (Optional): </label><br>
         <textarea type="text" placeholder="Optional Comment to the church" name="comment"></textarea><br>
-        <input type="submit" value="Submit">
+        <input type="submit" class="btn btn-success" value="Submit">
 
     </form>
 

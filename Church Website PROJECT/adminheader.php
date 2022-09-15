@@ -15,5 +15,7 @@
             <li><a href="events.php">Event Creator</a></li>
             <li><a href="event_editor.php">Event Editor</a></li>
             <li><a href="announce_updater.php">Update Church Announcements</a></li>
+            <li><a href="announce_edit.php">Delete Church Announcements</a></li>
+            <li><a href="tithe_view.php">View Contributions.</a></li>
         </ul>
     </aside>

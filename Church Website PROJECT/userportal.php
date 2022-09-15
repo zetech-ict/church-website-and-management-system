@@ -44,9 +44,26 @@
 		
 		<h1>User Dashboard</h1>
 
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, dicta suscipit earum nostrum 
-            ratione, et rerum placeat iure, consectetur esse sunt quam soluta dolore animi odit quasi 
-            fugiat eligendi iste?</p>
+        <p>Hello, welcome to the user portal, this is where user related activities will take place.</p>
+        <p>If you look to your top right you should see your email address, this indicates you've logged in 
+            with your correct personal credentials.
+        </p>
+        <p2>While logged in, you will be able to do the following:</p2>
+        <ol>
+            <li>Apply for Church Events listed.</li>
+            <li>Notify the Church on any contributions you've made.</li>
+            <li>View Church Announcements.</li>
+            
+        </ol>
+
+        <p3>Click on the appropriate menu on the sidebar to your left to perform any of the tasks listed above.</p3>
+        <br>
+        <p3>There's a short description in each page giving you an idea on how to use it, that is to say that 
+            this system will be a relatively simple and straightforward user experience.
+        </p3>
+        <br>
+        <br>
+        <p3><b>ENJOY.</b></p3>
 
 
 

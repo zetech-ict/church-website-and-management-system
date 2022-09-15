@@ -44,6 +44,7 @@
             <li>Update Church announcements that will be posted up on the website.</li>
             <li>Create Events.</li>
             <li>Delete Events when required.</li>
+            <li>View Contributions Made to the Church.</li>
         </ol>
 
         <p3>Click on the appropriate menu on the sidebar to your left to perform any of the tasks listed above.</p3>

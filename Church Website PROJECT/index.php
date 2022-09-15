@@ -72,29 +72,47 @@
             <div class="col-md-8">
                 <h1>We're a Community</h1>
                 <p>
-                    We love God and would like to share our love of God with everyone else
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nulla 
-                    nesciunt laboriosam explicabo perferendis repellat 
-                    repudiandae, illum totam perspiciatis amet asperiores nam, 
-                    expedita ad modi. Atque, repellendus. </p>
+                    <b>When we are alone, we are vulnerable, weak and lost. But when we are together, 
+                    we are able to take on so much more. 
+                    That's true in life and as believers.</b>
+                    We love God and would like to share our love of God with everyone else.
+                    Worshipping together at every reasonable opportunity only serves to strengthen
+                    our faith. Aside from worship, we engage in lots of other activities that let us
+                    engage with one another and bond as a community.</p>
 
             </div>
 
         </div>
         <div class="row" id="row2">
             <div class="col-md-8">
-                <h1>Join Us</h1>
+                <h1>Open to All</h1>
                 <p>
-                    Become a proud member of our church today, Join our cause by opening your account here
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nu
-                    <br>
-                    <a href="signup.php" class="btn btn-success">Open your Account here</a> 
+                Everyone, regardless of who they are, what they've done or where they're from is welcomed
+                to experience <b>the love and salvation offered by Christ</b>. We are here, always ready to help anyone
+                in their journey to giving their life to the Lord.
                 </p>
             </div>
             <div class="col-md-4">
-               <img class="join" src="">
+               <img class="welcome_img" src="images/join.jpg">
             </div>
     
+        </div>
+
+        <div class="row" id="row3">
+            <div class="col-md-4">
+                <img class="welcome_img" src="images/praise.jpg">
+            </div>
+
+            <div class="col-md-8">
+                <h1>Join Us</h1>
+                <p>
+                Become a proud member of our church today, Join our cause by opening your account and heart to Jesus
+                here. (Please note that this is compulsory to register for church activities.)
+                <br>
+                <a href="signup.php" class="btn btn-success">Open your Account here</a>  
+                </p>
+
+            </div>
         </div>
     </div>
     

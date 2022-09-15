@@ -47,7 +47,7 @@
     </nav>
 </header>
 <body>
-    <h1 id="announce">CURRENT ANNOUNCEMENTS AND EVENTS</h1>
+    <h1 id="announce">CURRENT ANNOUNCEMENTS.</h1>
     <hr>
     <div class="notices">
     <p1>

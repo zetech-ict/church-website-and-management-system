@@ -63,6 +63,9 @@
     #submit{
         width: auto;
     }
+    #reset{
+        width: auto;
+    }
     h5{
         background-color: green;
         text-align: center;
@@ -141,6 +144,7 @@
             <label for="contact">Email or Phone Number: </label><br>
             <input type="text" placeholder="Email or Number" name="contact"><br>
             <input type="submit" id="submit" class="btn btn-success">
+            <input type="reset" id="reset" class="btn btn-danger">
         </form>
 
 

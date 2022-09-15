@@ -8,7 +8,7 @@
     <!-- Latest compiled and minified CSS -->
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<style>body p{margin-right: 25px; margin-left: 30px;}</style>
+<style>.content {margin-right: 25px; margin-left: 30px;}</style>
 <title>About</title>
 </head>
 <header>
@@ -25,6 +25,7 @@
     </nav>
 </header>
 <body>
+    <div class="content">
     <h1 style="text-align: center;">ABOUT OUR CHURCH</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quisquam dolorem sint 
         consequatur! Voluptatem temporibus doloremque asperiores eos aliquam nemo eum enim? 
@@ -36,5 +37,16 @@
         facilis! Accusamus facere excepturi totam impedit ipsum, nam nemo quo exercitationem 
         libero rerum quam, pariatur sequi illum consectetur molestias, molestiae quos.
     </p>
+
+    <h2>CONTACTS AND LOCATION.</h2>
+    <p1>We are located at:</p1><br>
+    <p1><b>21 Krait Ave, Rosebank Union, Nairobi.</b></p1><br><br>
+    <p1>Our Contacts:</p1><br>
+    <p1><b>Email: info@nairobichurch.co.ke</b></p1><br>
+    <p1><b>Phone Number: 098 2567 384.</b></p1><br><br>
+
+    <p1>Alternatively, you can write to us on our <a href="contact.php">Contact Us</a> page and we'll reach 
+        out as soon as possible.</p1>
+    </div>
 </body>
 </html>

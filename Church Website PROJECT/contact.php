@@ -63,7 +63,7 @@
             <textarea class="message" placeholder="Your message here" name="msg" required></textarea>
             </div>
             <br>
-            <input type="submit" value="SUBMIT QUESTION"><br>
+            <input type="submit" class="btn btn-success" value="SUBMIT QUESTION"><br>
         </form>
         </div>
 
