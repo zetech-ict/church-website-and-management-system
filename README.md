@@ -1,3 +1,6 @@
+Note: There was a mix-up while cloning the repository from my local machine to github, while I've made commits via direct uploads to the Folder above in this repository, more detailed commits that were made straight from my VScode app are available at https://github.com/mike-mike-8000/NEW-church-management-project
+
+Thank You.
 ## Background.
 Many churches today are facing a similar grievance. Population and consequently membership has grown exponentially over time and the current manual systems of administrative management and communication are unable to keep up. 
 It is becoming increasingly tiresome and inefficient for church leaders to manage their congregation, activities and events. 
