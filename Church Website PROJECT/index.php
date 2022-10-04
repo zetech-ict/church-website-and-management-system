@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/front_icon.jpg">
     <!-- Latest compiled and minified CSS -->
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -13,6 +14,20 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <title>Homepage</title>
+<style>
+    .left-column{
+    float: left;
+    margin-left: 50px;
+}
+
+.right-column{
+    float: right;
+    margin-right: 50px;
+}
+.announce{
+    text-align: center;
+}
+</style>
 </head>
 <header>
     <nav>
@@ -36,11 +51,9 @@
     <section class="announce">
         <h2>WELCOME</h2>
         <br>
-        <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet 
-            voluptatum velit quis odio natus sapiente 
-            ad reiciendis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit facilis, c
-            umque nobis voluptatem velit excepturi aut cum debitis vero aliquid error tenetur voluptatum 
-            incidunt ratione eligendi. Id explicabo cupiditate dolorem!</p1>
+        <p1>But if we walk in the light, as he is in the light, 
+            we have fellowship with one another, and the blood of Jesus his Son cleanses
+             us from all sin. <b>1 John 1:7 ESV</b></p1>
 
         <hr>
     </section>
@@ -61,6 +74,7 @@
             margin-bottom: 10px;
             margin-left: 45px;
         }
+
     </style>
 
     <div class="container">
@@ -117,4 +131,7 @@
     </div>
     
 </body>
+
+<?php include 'footer.php' ?>
+
 </html>
